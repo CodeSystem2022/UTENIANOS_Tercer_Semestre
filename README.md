@@ -2,7 +2,7 @@
 ## UNIVERSIDAD TECNOLÓGICA SAN RAFAEL TERCER SEMESTRE 
 ### El presente repositorio tiene como finalidad recopilar proyectos correspondientes a las cátedras de laboratorio III y programación III, en los cuales se desarrollaran en diferentes lenguajes de programación.
 
-[![equipo-utenianos-gif.gif](https://i.postimg.cc/wM59PN75/equipo-utenianos-gif.gif)](https://postimg.cc/RJFrJN1q)
+<a href='https://postimg.cc/RJFrJN1q' target='_blank'><img src='https://i.postimg.cc/RJFrJN1q/equipo-utenianos-gif.gif' border='0' alt='equipo-utenianos-gif'/></a>
 #### Integrantes del equipo
 
 | Nombre      | LinkedIn | Git Hub |
