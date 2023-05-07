@@ -1,6 +1,8 @@
-#UTENIANOS
+# UTENIANOS
 ## UNIVERSIDAD TECNOLÓGICA SAN RAFAEL TERCER SEMESTRE 
-### Integrantes del equipo
+### El presente repositorio tiene como finalidad recopilar proyectos correspondientes a las cátedras de laboratorio III y programación III, en los cuales se desarrollaran en diferentes lenguajes de programación.
+
+#### Integrantes del equipo
 
 | Nombre      | LinkedIn | Git Hub |
 | --------- | --------|--------:|
