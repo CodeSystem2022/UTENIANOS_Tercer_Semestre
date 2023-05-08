@@ -1,2 +1,13 @@
 Carpeta de Ejercicios de Python
 La carpeta de ejercicios de Python contiene una variedad de ejercicios para programadores de todos los niveles. Aquí encontrarás ejercicios que te ayudarán a mejorar tus habilidades de programación en Python, así como ejercicios más desafiantes para poner a prueba tus habilidades existentes. Cada ejercicio viene con una explicación detallada y una solución.
+
+
+
+Ejercicio 1: 
+a = float(input("Digite el valor de a: ")) 
+b = float(input("Digite el valor de b: "))
+c = float(input("Digite el valor de c: "))
+
+resultado = (a ** 3 * (b ** 2-2 * a * c)) / (2*b)
+
+print(f"El resultado es: {resultado}")
