@@ -11,7 +11,7 @@
 | Carolina Belén Delgado   | https://www.linkedin.com/in/carolina-belén-delgado-558843219 | https://github.com/programacioncarolina1980|
 | Juan Agustin Saba  | https://www.linkedin.com/in/agustin-saba/ |https://github.com/jsaba543|    
 | Facundo Giangrave |   link | https://github.com/Facugiangrave
-| Costilla Celina     | https://www.linkedin.com/in/celinacostilla31323344/) |https://github.com/users/Hiddencelc/|
+| Costilla Celina   | https://www.linkedin.com/in/celinacostilla31323344/ |https://github.com/users/Hiddencelc/|
 | name     |   link |
 | name     |   link |
 ##### METODO  SCRUM
