@@ -14,5 +14,5 @@
 | Costilla Celina   | https://www.linkedin.com/in/celinacostilla31323344/ |https://github.com/users/Hiddencelc/|
 | Miriam Torres   |  https://www.linkedin.com/in/miriam-torres-63b3a8227/ | https://github.com/MiriamTorres30|
 | Walter David Torres | https://www.linkedin.com/in/david-torres-6668b3253/ | https://github.com/DavidTorres92|
-##### METODO  SCRUM
+### METODO  SCRUM
 <a href='https://postimg.cc/r0591y4W' target='_blank'><img src='https://i.postimg.cc/r0591y4W/Banner-Metodo-Scrum-UTN.gif' border='0' alt='Banner-Metodo-Scrum-UTN'/></a>
