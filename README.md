@@ -9,10 +9,10 @@
 | --------- | --------|--------:|
 | Agustin Putrino  | https://www.linkedin.com/in/agussputrii/ |https://github.com/agussputrii|
 | Carolina Belén Delgado   | https://www.linkedin.com/in/carolina-belén-delgado-558843219 | https://github.com/programacioncarolina1980|
-| name     |   link |
-| name     |   link |
-| name     |   link |
-| name     |   link |
-| name     |   link |
-##### METODO  SCRUM
+| Juan Agustin Saba  | https://www.linkedin.com/in/agustin-saba/ |https://github.com/jsaba543|    
+| Facundo Giangrave |   link | https://github.com/Facugiangrave
+| Costilla Celina   | https://www.linkedin.com/in/celinacostilla31323344/ |https://github.com/users/Hiddencelc/|
+| Miriam Torres   |  https://www.linkedin.com/in/miriam-torres-63b3a8227/ | https://github.com/MiriamTorres30|
+| Walter David Torres | https://www.linkedin.com/in/david-torres-6668b3253/ | https://github.com/DavidTorres92|
+### METODO  SCRUM
 <a href='https://postimg.cc/r0591y4W' target='_blank'><img src='https://i.postimg.cc/r0591y4W/Banner-Metodo-Scrum-UTN.gif' border='0' alt='Banner-Metodo-Scrum-UTN'/></a>
