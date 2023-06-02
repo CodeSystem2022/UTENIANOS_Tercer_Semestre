@@ -1,0 +1,93 @@
+package test;
+
+import domain.*;
+
+/**
+ *
+ * @author CELINA
+ */
+public class TestSobreescritura {
+
+    public static void main(String[] args) {
+
+        Empleado empleado1 = new Empleado("Juan", 10000);
+        //System.out.println("empleado1 = " + empleado1.obtenerDetalles());
+        empleado1 = new Gerente("José", 5000, "Sistemas");
+
+        //System.out.println("gerente1 = " + gerente1.obtenerDetalles());
+        imprimir(empleado1);
+        
+
+    }
+    
+    
+    
+    public static void imprimir(Empleado empleado){
+        String detalles= empleado.obtenerDetalles();
+        System.out.println("detalles = " + detalles);
+    }
+}
+package domain;
+
+/**
+ *
+ * @author CELINA
+ */
+public class Gerente extends Empleado {
+
+    private String departamento;
+
+    public Gerente(String nombre, double sueldo, String departamento) {
+        super(nombre, sueldo);
+        this.departamento = departamento;
+
+    }
+    
+    @Override // sobreescribimos el metodo del padre en la clase Hija
+    
+    public String obtenerDetalles(){
+        
+        return  super.obtenerDetalles()+ " Departamento :"+ this.departamento;
+    }
+    
+
+}
+
+package domain;
+
+/**
+ *
+ * @author CELINA
+ */
+public class Empleado {
+    protected String nombre;
+    protected double sueldo;
+    
+    public Empleado(String nombre, double sueldo){
+        this.nombre=nombre;
+        this.sueldo=sueldo;
+    }
+    
+    // método para sobreescribir
+    public String obtenerDetalles(){
+        return "Nombre: "+ this.nombre + "\n Sueldo: "+ this.sueldo;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public double getSueldo() {
+        return sueldo;
+    }
+
+    public void setSueldo(double sueldo) {
+        this.sueldo = sueldo;
+    }
+    
+    
+}
