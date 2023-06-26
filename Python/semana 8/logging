@@ -1,0 +1,33 @@
+import logging as log
+# log = loggin -> también puede hacerse así
+
+#docs.python.org/3/howto/logging.html
+#esta va a ser la base para todos los demas archivos con el manejo de loggin
+#Llamamos a una configuración básica
+
+log.basicConfig(level=log.DEBUG,
+                format='%(asctime)s:%(levelname)s [%(filename)s:%(lineno)s] %(message)s',
+                datefmt= '%I:%M:%S %p',#modificamos la hora
+                handlers=[ #manejamos una lista
+                    #al enviar información por consola
+                    #también se envía a este archivo .log
+                    log.FileHandler('capa_datos.log'),
+                    log.StreamHandler() #la consola recibe la info
+                ]
+                ) #se van a ejecutar todos los mensajes a continuación
+
+
+#Este código está relacionado con la configuración del registro de registros (logging) en Python. La biblioteca `logging` 
+#se utiliza para registrar información, como mensajes de depuración, advertencias o errores, durante la ejecución de un programa.
+
+#En este caso, el código está realizando la configuración básica del registro de registros. Aquí se definen los niveles de registro (`level`),
+#el formato de los mensajes (`format`), el formato de la fecha (`datefmt`) y los manejadores (`handlers`) que se utilizarán para enviar los mensajes de registro.
+
+#- El nivel de registro se establece en `DEBUG`, lo que significa que se registrarán todos los niveles de mensajes, desde `DEBUG` hasta `CRITICAL`.
+#- El formato de los mensajes incluye la hora de registro, el nivel de registro, el nombre del archivo, el número de línea y el mensaje en sí.
+#- El formato de la fecha se establece en el formato de 12 horas (`%I:%M:%S %p`).
+#- Los manejadores incluyen un `FileHandler` que escribirá los mensajes de registro en un archivo llamado `capa_datos.log` y un `StreamHandler` que mostrará los mensajes de registro en la consola.
+
+#Una vez configurado el registro de registros, puedes usar el módulo `log` para registrar mensajes en diferentes niveles, como `log.debug()`, `log.info()`, `log.warning()`, `log.error()` y `log.critical()`.
+
+#Este código en particular está preparando el entorno de registro para un proyecto que involucra una capa de datos. Los mensajes de registro se enviarán tanto al archivo `capa_datos.log` como a la consola.
