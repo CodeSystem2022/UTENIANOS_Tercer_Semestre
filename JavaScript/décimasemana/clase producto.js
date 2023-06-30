@@ -66,7 +66,7 @@ class Orden{
         return totalVenta;
     } //Fin del método calcularTotal
 
-///////////////////////////////////////////////////////////GIANGRAVE FACUNDO
+/////GIANGRAVE FACUNDO
     class Producto{
     static contadorProductos = 0;
 
