@@ -58,6 +58,13 @@ class Orden{
         }
     }//fin del metodo agregarProducto
 
-///////////////////////////////////////////////////////////TORRES MIRIAM
+//TORRES MIRIAM
+     calcularTotal(){
+        let totalVenta = 0;
+        for(let producto of this._productos){
+            totalVenta += producto.precio;
+        } //Fin Ciclo For
+        return totalVenta;
+    } //Fin del método calcularTotal
 
 ///////////////////////////////////////////////////////////GIANGRAVE FACUNDO
