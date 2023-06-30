@@ -57,7 +57,6 @@ class Orden{
             console.log(" No se puede agregar mas productos")
         }
     }  //fin del metodo agregarProducto
-
 //TORRES MIRIAM
      calcularTotal(){
         let totalVenta = 0;
