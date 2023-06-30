@@ -47,7 +47,16 @@ class Orden{
     get idOrden(){
         return this._idOrden;
     }
-/////////////////////////////////////////////////////////// TORRES DAVID
+// TORRES DAVID
+    agregarProducto(producto){
+        if(this._productos.length < Orden.getMAX_PRODUCTOS()){
+            this._productos.push(producto);//tenemos 2 tipos de sintaxis: 1
+             //this._productos[this._contadorProductosAgregados++]=producto; // segunda sintaxis
+        }
+        else{
+            console.log(" No se puede agregar mas productos")
+        }
+    }//fin del metodo agregarProducto
 
 ///////////////////////////////////////////////////////////TORRES MIRIAM
 
