@@ -1,3 +1,4 @@
+// DELGADO CAROLINA
 class Producto{
     static contadorProductos = 0;
 
@@ -31,3 +32,23 @@ class Producto{
         return `idProducto: ${this._idProducto}, nombre: ${this._nombre}, precio: $${this._precio}  `;
     }
 }
+
+//SABA JUAN AGUSTÍN
+class Orden{
+    static contadorOrdenes=0;
+    static getMAX_PRODUCTOS(){ //simula una constante
+        return 5;
+    }
+    constructor(){
+        this._idOrden= ++Orden.contadorOrdenes;
+        this._productos=[];
+        this._contadorProductosAgregados=0;
+    }
+    get idOrden(){
+        return this._idOrden;
+    }
+/////////////////////////////////////////////////////////// TORRES DAVID
+
+///////////////////////////////////////////////////////////TORRES MIRIAM
+
+///////////////////////////////////////////////////////////GIANGRAVE FACUNDO
